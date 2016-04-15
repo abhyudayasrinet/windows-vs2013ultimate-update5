@@ -1,0 +1,14 @@
+{
+  "title": "Visual Studio 2013 Ultimate Update 5",
+  "description": "Installs Visual Studio 2013 Ultimate with Update 5 using the Chocolatey package manager",
+  "tags": [
+    "Windows",
+    "Visual Studio"
+  ],
+  "iconUri": "http://icons.iconarchive.com/icons/dakirby309/simply-styled/128/Microsoft-Visual-Studio-icon.png",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File startChocolatey.ps1 -PackageList visualstudio2013ultimate"
+
+  }
+}
